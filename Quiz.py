@@ -1,3 +1,5 @@
+# Author: Jacob Johnston
+
 import cv2
 import os
 import random
