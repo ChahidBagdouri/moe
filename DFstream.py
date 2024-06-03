@@ -1,3 +1,5 @@
+# Author: Abdullah Mohammad
+
 import cv2
 from deepface import DeepFace
 import sounddevice as sd
