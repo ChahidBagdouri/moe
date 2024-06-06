@@ -5,7 +5,11 @@ While A.I. has an undeserved stigma for being bad for humankind and culture, we 
 Moe is a pocket-buddy for your shirt-pocket that records in real-time and alerts the user through sound feedback for any negative emotions that may be detected in your social interactions. Moe also works on selfie-mode. Negative emotions are saved in the database to later quiz users to help train and develop socio-emotional awareness according to tested and true developmental psychology therapy methods for people who suffer from Autism Spectrum Disorder.
 
 ## How we built it
-Moe uses machine learning (Deepface) running on a raspberry pi and an external camera with opencv in order to read real time emotions on the faces of who the user may interact with. Negative emotions include anger, disgust, suprise, happiness, sadness, and fear. As proof of concept, we used an external bluetooth speaker to play audio. If we were to do this again, we would use a vibration motor.
+Moe uses DeepFace-powered Machine Learning models and OpenCV HAAR Cascades incorporated onto a Raspberry Pi. Specifically, the program, developed by **Abdullah Mohammad**, incorporates Deepface Single-Shot Detector models and utilizes HAAR Cascades with openCV on an external camera in order to read real-time emotions on the faces of individuals the user interacts with. Emotions include anger, disgust, surprise, happiness, sadness, and fear. \
+\
+Moe also incorporates a quizzing feature designed by **Jacob Johnston** to allow individuals with ASD to practice identifying emotional cues and matching emotional states with recorded faces from people these individuals interact with on a daily basis. These images are saved to a local database only accessible to users of the device. If we were given more time, we would have utilized face-matching algorithms to create a whitelisting database to further enhance privacy and add consent to the recording. \
+\
+**Chahid Bagdouri** was our hardware lead, providing connections and support with an external WebCam and an Anker Bluetooth Speaker. As proof of concept, we used this external Bluetooth speaker to play audio. If we were to do this again, we would use a vibration motor to provide subtle signals to the user to alert them of certain social cues they may have missed throughout a live conversation or interaction.
 
 ## Challenges we ran into
 While Moe reads facial emotion recognition onto the wearer's social interactions, Moe originally was going to ALSO support speech emotion recognition in the wearer themselves. We got it working through speech-to-text analysis AND live audio analysis, but the results were not accurate enough as we'd like. There were too many false-flags in our testing. While the OpenSmile library extracts accurate data, finding a consistently accurate pre-trained machine learning model was a little difficult. We tried different pre-trained models in Hugging Face. We also ran into the challenge of originally providing Moe to use a vibration sensor module. While a vibration is great, silent feedback that is hidden from everyone else as to not hinder the wearer's social interactions, it does not translate well for a demo and so we used a bluetooth speaker.
@@ -25,6 +29,5 @@ By Abdullah Mohammad, Jacob Johnston, and Chahid Bagdouri
 ## Resources used
 Deepface \
 OpenCV \
-Microsoft Copilot Image Generation \
 https://orangefreesounds.com/womp-womp/ \
-Roblox Oof sound
+Roblox Oof Sound
