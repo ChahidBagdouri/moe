@@ -24,7 +24,8 @@ We were surprised to find out that our very own self-awareness and understanding
 We're proud of potentially moving this project forward even more by training more speech emotion detection and to even support the ability to improve one's public speaking and interviewing experience and strategies! Lastly, Social Stories are another popular therapy method for children with A.S.D. and it involves many moving parts, contexts, plots, and actions. Stories are explained to engage children and to reward them for thinking of the socially appropiate action. These things are better off illustrated in a book or website than incorporated with real life camera modules, however, we're definitely keeping our eyes on how A.S.D., robotics, and machine-learning can be used to not only improve the emotional wellness of children with A.S.D., but even teenagers, adults, and people without A.S.D. who may just experience social anxiety and a lack of social experience.
 
 ## Authors
-By Abdullah Mohammad, Jacob Johnston, and Chahid Bagdouri
+By Abdullah Mohammad, Jacob Johnston, and Chahid Bagdouri \
+\
 Link to devpost: https://devpost.com/software/moe-iuj39e
 
 ## Resources used
