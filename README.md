@@ -25,6 +25,7 @@ We're proud of potentially moving this project forward even more by training mor
 
 ## Authors
 By Abdullah Mohammad, Jacob Johnston, and Chahid Bagdouri
+Link to devpost: https://devpost.com/software/moe-iuj39e
 
 ## Resources used
 Deepface \
